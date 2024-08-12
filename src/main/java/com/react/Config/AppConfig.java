@@ -51,7 +51,7 @@ public class AppConfig {
 			@Override
 			public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
 				CorsConfiguration ccf=new CorsConfiguration();
-				ccf.setAllowedOrigins(Arrays.asList("http://localhost:3000/","https://insta-clone-react-ivory.vercel.app/"));
+				ccf.setAllowedOrigins(Arrays.asList("http://localhost:3000/","https://insta-clone-react-ivory.vercel.app"));
 				ccf.setAllowedMethods(Collections.singletonList("*"));
 				ccf.setAllowCredentials(true);
 				ccf.setAllowedHeaders(Collections.singletonList("*"));
